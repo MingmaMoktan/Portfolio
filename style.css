@@ -37,6 +37,7 @@ nav{
 
 #header .container h1{
     font-size: 50px;
+    margin-bottom: 5px;
 }
 
 nav ul li{
@@ -68,7 +69,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
@@ -99,7 +100,7 @@ nav ul li a:hover::after{
 
 /* ------------------------------About Section css code---------------------------------------------- */
 #about{
-    padding: 80px 0;
+    padding: 20px 0;
     color: #ababab;
 }
 
@@ -176,7 +177,7 @@ nav ul li a:hover::after{
 
 /* -----------------------------------------------Services Section--------------------------------------------------- */
 #services{
-    padding: 30px 0px 30px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .services-list{
@@ -188,7 +189,7 @@ nav ul li a:hover::after{
 
 .services-list div{
     background: #130f0f;
-    padding: 40px;
+    padding: 20px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
@@ -223,7 +224,7 @@ nav ul li a:hover::after{
 /* --------------------------------------------Portfolio----------------------------------------------- */
 
 #portfolio{
-    padding: 50px 0px;
+    padding: 20px 0px;
 }
 
 .work-list{
@@ -260,7 +261,7 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 20px;
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
@@ -297,7 +298,7 @@ nav ul li a:hover::after{
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff004f;
-    padding: 14px 50px;
+    padding: 14px 20px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
@@ -306,7 +307,7 @@ nav ul li a:hover::after{
 
 .btn:hover{
     background: #ff004f;
-    padding: 18px 55px;
+    padding: 18px 50px;
 }
 
 /* -------------------------------------------------------Contact--------------------------------------------------------------- */
