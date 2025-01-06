@@ -20,6 +20,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -132,8 +133,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links{
-    margin-right: 50px;
-    padding-right: 80px;
+    margin-right: 60px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
