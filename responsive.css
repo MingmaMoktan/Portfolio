@@ -1,12 +1,12 @@
 @media only screen and (max-width: 600px){
-
+    
     .header-text{
-        margin-top: 100%;
+        margin-top: 50%;
         font-size: 16px;
     }
 
     .header-text h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     nav .fa-solid{
@@ -66,5 +66,4 @@
     .message h2, .message p, .message h3{
         font-size: 16px;
     }
-
 }
