@@ -1,7 +1,12 @@
-@media (max-width: 912px) {
+@media (max-width: 980px) {
     #header {
         width: 100%;
         height: 40vh; /* Good for viewport-based height */
+    }
+
+    .tab-links{
+        margin-right: 10px;
+        font-size: 18px;
     }
 }
 
@@ -9,6 +14,11 @@
     #header {
         width: 100%;
         height: 70vh; /* Good for viewport-based height */
+    }
+
+    .tab-links{
+        margin-right: 10px;
+        font-size: 16px;
     }
 }
 
@@ -22,6 +32,11 @@
     .about-col-1 { 
         margin-top: 0;
         padding-top: 0;
+    }
+
+    .tab-links{
+        margin-right: 30px;
+        font-size: 18px;
     }
 
     nav ul {
@@ -56,14 +71,10 @@
 /* Added responsive css for the screen up to width 600px */
 
 @media only screen and (max-width: 600px){
-
-    .tab-links{
-        margin-right: 10px;
-    }
     
     .header-text{
         margin-top: 50%;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header-text h1{
@@ -117,7 +128,7 @@
 
     .tab-links{
         font-size: 16px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .contact-left, .contact-right{
