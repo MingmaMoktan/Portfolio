@@ -69,7 +69,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
@@ -80,6 +80,8 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
     color: #ff004f;
+    display: inline-block;
+    animation: zoomInOut 2s ease-in-out infinite;
 }
   
 @keyframes zoomInOut {
@@ -373,12 +375,6 @@ form btn-2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-}
-
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
 }
 
 .message{

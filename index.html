@@ -21,11 +21,10 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            
             <div class="header-text">
                 <p>Web Developer</p>
                 <h1>Hi, I am <span>Mingma</span> <br> <span>Moktan</span> from Finland.</h1>
@@ -171,7 +170,6 @@
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn-2">Submit</button>
                     </form>
-                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -202,13 +200,13 @@
 
 
 <script>
-    var sidemenu = document.getElementById("sidemenu");
+    var sidebar = document.getElementById("sidemenu");
 
     function openmenu(){
-        sidemenu.style.right = "0";
+        sidebar.style.right = "0";
     }
     function closemenu(){
-        sidemenu.style.right = "-200px";
+        sidebar.style.right = "-150px";
     }
 </script>
 
