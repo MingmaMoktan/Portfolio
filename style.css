@@ -28,11 +28,19 @@ body{
     padding: 10px 10%;
 }
 
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 10%;
+    background: linear-gradient(to right, #0b2233, #001b36, #03101d);
 }
 
 #header .container h1{
@@ -131,8 +139,8 @@ nav ul li a:hover::after{
 }
 
 .tab-links{
-    margin-right: 50px;
-    font-size: 20px;
+    margin-right: 25px;
+    font-size: 17px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
