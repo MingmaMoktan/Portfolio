@@ -23,7 +23,7 @@
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             
             <div class="header-text">
@@ -200,21 +200,18 @@
         }
     </script>
 
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
-            sidemenu.style.right = "0px";
-        }
+<script>
+    var sidemenu = document.getElementById("sidemenu");
 
-        function closemenu(){
-            sidemenu.style.right = "-200px"
-        }
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
 
-        window.onload = function() {
-            sidemenu.style.right = "-200px";
-        }
-    </script>
 
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzOh4V7DmtA4YMret1JdAKvZBBHAGz4ErWZiKdHaSmGxjJSRhZmTsBr4OdqDbJAdX0/exec'

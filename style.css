@@ -16,10 +16,10 @@ body{
 
 #header {
     width: 100%;
-    height: 80vh; /* Good for viewport-based height */
+    height: 100vh;
     background-image: url('image/background.png');
-    background-size: cover; /* Ensures the image covers the entire area */
-    background-position: center; /* Centers the image both horizontally and vertically */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
@@ -69,14 +69,18 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 0;
+    margin-top: 20%;
     font-size: 30px;
 }
 
-.header-text h1 span {
-    display: inline-block;
-    animation: zoomInOut 2s ease-in-out infinite;
-  }
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #ff004f;
+}
   
 @keyframes zoomInOut {
     0%, 100% {
@@ -86,21 +90,10 @@ nav ul li a:hover::after{
       transform: scale(1);
     }
 }
-  
-.header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
-}
-
-.header-text h1 span{
-    color: #ff004f;
-}
-
-
 
 /* ------------------------------About Section css code---------------------------------------------- */
 #about{
-    padding: 20px 0;
+    padding: 80px 0;
     color: #ababab;
 }
 
@@ -136,7 +129,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links{
-    margin-right: 10px;
+    margin-right: 50px;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
@@ -158,13 +151,6 @@ nav ul li a:hover::after{
     width: 50%;
 }
 
-.tab-contents{
-    display: none;
-}
-
-.tab-contents.active-tab{
-    display: block;
-}
 
 .tab-contents ul li{
     /* list-style: none; */
@@ -176,9 +162,17 @@ nav ul li a:hover::after{
     font-size: 14px;
 }
 
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
 /* -----------------------------------------------Services Section--------------------------------------------------- */
 #services{
-    padding: 20px 0px 20px 0px;
+    padding: 30px 0;
 }
 
 .services-list{
